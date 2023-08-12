@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+    background: url('../imagens/calculando-p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.play {
+    background-color: rgb(156, 156, 156);
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(180, 180, 180);    
+    transform: translate(5%, -15%);
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#main {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.num {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(156, 156, 156);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin: 3px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.sinal {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 7px;
+    border: none;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+
+.num0 {
+    background-color: rgb(0, 129, 241);
+    height: 40px;
+    width: 90px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 7px;
+    border: none;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+
+.clean {
+    background-color: rgb(255, 102, 0);
+    height: 40px;
+    width: 85px;
+    border-radius: 7px;
+    border: none;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+
+.igual {
+    height: 85px;
+    width: 40px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 7px;
+    border: none;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    margin-top: -22px;
+    transform: translate(0%, -25%);
+}
